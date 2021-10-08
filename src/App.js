@@ -3,7 +3,8 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import MainInfo from './Components/MainInfo';
 import Gallery from './Components/Gallery';
-import MenuSection from './Components/MenuSection';
+import Menu from './Components/MenuSection';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Hero />
         <MainInfo />
         <Gallery />
-        <MenuSection />
+        <Menu />
+        <Footer />
     </div>
   );
 }

@@ -5,9 +5,9 @@ const About = () => {
     return (
         <AboutContainer>
             <AboutHeadline>About</AboutHeadline>
-            <AboutParagraph>Two Ten Jack is a Japanese-inspired neighborhood pub, or izakaya, featuring artisinal ramen, yakitori (skewered & grilled items), sushi selections, 
+            <AboutParagraph>Nama is a Japanese-inspired neighborhood pub, or izakaya, featuring artisinal ramen, yakitori (skewered & grilled items), sushi selections, 
             and other Japanese-inspired comfort food that incorporates local, Southern ingredients. The beverage program features craft & rare Japanese beers, cocktails-on-tap, 
-            sake, shochu and Japanese whisky. Located in Chattanooga’s Warehouse Row, Two Ten Jack offers an unpretentious and comfortable environment – the true izakaya 
+            sake, shochu and Japanese whisky. Located in Warehouse Row, Nama offers an unpretentious and comfortable environment – the true izakaya 
             experience – as an urban gathering spot for the community where local and Japanese culture can come together.</AboutParagraph>
             <br></br>
             <Reservation>Reservation Info</Reservation>

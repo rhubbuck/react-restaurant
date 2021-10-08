@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     flex: 2;
-    border-left: 1px solid black;
+    border-left: 1px solid gray;
     padding-left: 35px;
 `
 
