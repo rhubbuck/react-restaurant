@@ -1,0 +1,17 @@
+.modal-container {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+}
+
+.modal-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}

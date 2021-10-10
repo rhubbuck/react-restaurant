@@ -1,12 +1,16 @@
 import React from 'react';
-import { MainContainer } from './MainInfoElements';
+import { MainContainer, LeftColumn } from './MainInfoElements';
 import Contact from './Contact';
 import About from './About';
+import Reservations from '../Reservations';
 
 const MainInfo = () => {
     return (
        <MainContainer>
-            <Contact />
+            <LeftColumn>
+                <Contact />
+                <Reservations />
+            </LeftColumn>
             <About />
        </MainContainer>
     )

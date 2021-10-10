@@ -13,7 +13,7 @@ const About = () => {
             <Reservation>Reservation Info</Reservation>
             <br></br>
             <ReservationText>
-            Please click here to make a reservation. For parties of 7 or more, or special event requests, please email fakeemail@gmail.com
+           For parties of 15 or more, or special event requests, please email fakeemail@gmail.com
             </ReservationText>
             <br></br>
             <HoursLabel>Restaurant Hours</HoursLabel>
