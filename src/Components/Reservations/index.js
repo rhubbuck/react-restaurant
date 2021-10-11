@@ -39,7 +39,7 @@ const Reservations = () => {
     }
 
     return (
-        <div className="reservationContainer">
+        <div className="reservationContainer" id="reservations">
         <h1>Reservations</h1>
            <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-control">

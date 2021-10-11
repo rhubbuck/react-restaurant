@@ -33,7 +33,7 @@ class Menu extends Component {
 
     render() {
     return (
-        <div>
+        <div id="menus">
         <MenusSection>
             <MenusContainer>
                 <MenuHeader>Menus</MenuHeader>

@@ -5,26 +5,26 @@ const Gallery = () => {
     return (
         <GalleryContainer>
                 <GalleryColumn>
-                    <img src='/images/chef.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/ramen-with-sauce.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/avocado-roll.jpg' alt='Sushi' style={{ padding: '5px 0', height: '50%'}}></img>
+                    <img src="./images/orange-cocktail.jpg" alt="Cocktail with orange slice" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/chef.jpg" alt="Sushi chef" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/egg-ramen.jpg" alt="Ramen with egg" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
                 </GalleryColumn>
                 <GalleryColumn>
-                    <img src='/images/sushi-tray.jpg' alt='Sushi' style={{ padding: '5px 0', height: '50%'}}></img>
-                    <img src='/images/sesame-roll.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/three-cocktails.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
+                    <img src="./images/chicken-ramen.jpg" alt="Chicken ramen" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/sushi-arrangement.jpg" alt="Sushi tray" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/tempura-sushi.jpg" alt="Tempura roll" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
                 </GalleryColumn>
                 <GalleryColumn>
-                    <img src='/images/sashimi.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/sake-with-plate.jpg' alt='Sushi' style={{ padding: '5px 0', height: '50%'}}></img>
-                    <img src='/images/ramen-side-profile.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
+                    <img src="./images/beer.jpg" alt="Japanese beer" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/watermelon-cocktail.jpg" alt="Watermelon cocktail" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/cocktail.jpg" alt="Cocktail" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
                 </GalleryColumn>
                 <GalleryColumn>
-                    <img src='/images/purple-cocktail.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/egg-ramen.jpg' alt='Sushi' style={{ padding: '5px 0', height: '25%'}}></img>
-                    <img src='/images/pink-cocktail.jpg' alt='Sushi' style={{ padding: '5px 0', height: '50%'}}></img>
+                    <img src="./images/shrimp-ramen.jpg" alt="Shrimp ramen" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/soup.jpg" alt="Soup and nigiri" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
+                    <img src="./images/cocktail-with-orange.jpg" alt="cocktail" style={{marginTop: "8px", height: "33%", verticalAlign: "middle", width: "100%"}}/>
                 </GalleryColumn>
-        </GalleryContainer>
+            </GalleryContainer>
     )
 }
 
