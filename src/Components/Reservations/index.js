@@ -25,7 +25,7 @@ const Reservations = () => {
         var dateString = data.date;
         dateString = new Date(dateString).toUTCString();
         dateString = dateString.split(' ').slice(0, 4).join(' ');
-        await addDoc(reservationsCollectionRef, {name: data.name, party: data.party, date: dateString, time: data.time})
+        await addDoc(reservationsCollectionRef, {name: data.name, party: data.party, date: dateString, time: data.time, email: data.email})
     }  
 
     const onSubmit = (data) => {
