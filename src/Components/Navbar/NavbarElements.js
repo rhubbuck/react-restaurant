@@ -1,10 +1,13 @@
 import styled from 'styled-components';
-// import { Link } from 'react-router-dom';
+
 
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
     width: 100%;
+    @media (max-width: 480px) {
+        width: 100vw;
+  }
 `
 
 export const NavbarContainer = styled.div`
@@ -14,6 +17,15 @@ export const NavbarContainer = styled.div`
     align-items: center;
     padding: 0 2rem;
     width: 100%;
+    @media (max-width: 480px) {
+        padding: 1rem;
+  }
+`
+
+export const Icon = styled.div`
+     @media (max-width: 480px) {
+        display: none;
+  }
 `
 
 export const NavLogo = styled.div`
@@ -32,6 +44,9 @@ export const NavLinkContainer = styled.ul`
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    @media (max-width: 480px) {
+        display: none;
+  }
 `
 
 export const NavLink = styled.li`
@@ -46,4 +61,22 @@ export const NavLink = styled.li`
     &:hover {
         color: red;
     }
+`
+
+export const Dropdown = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+export const DropdownLink = styled.li`
+    color: #fff;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
 `

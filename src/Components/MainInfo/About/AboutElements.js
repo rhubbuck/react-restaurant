@@ -4,6 +4,9 @@ export const AboutContainer = styled.div`
     flex: 2;
     border-left: 1px solid gray;
     padding-left: 35px;
+    @media (max-width: 480px) {
+        padding: 15px;
+  }
 `
 
 export const AboutHeadline = styled.h2`

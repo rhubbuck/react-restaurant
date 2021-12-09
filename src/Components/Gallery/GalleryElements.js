@@ -6,6 +6,9 @@ export const GalleryContainer = styled.div`
     padding: 0 4px;
     height: 700px;
     margin: 50px 110px;
+    @media (max-width: 480px) {
+        display: none;
+  }
 `
 
 export const GalleryColumn = styled.div`

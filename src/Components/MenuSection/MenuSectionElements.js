@@ -1,14 +1,24 @@
 import styled from "styled-components";
 
 export const MenusContainer = styled.div`
-        border-right: 1px solid gray;
-        padding-right: 80px;
+    border-right: 1px solid gray;
+    padding-right: 80px;
+    @media (max-width: 480px) {
+        border-bottom: 1px solid gray;
+        margin-bottom: 35px;
+  }
+   
 `
 
 export const MenusSection = styled.div`
     display: flex;
     flex-direction: row;
     margin: 60px 220px;
+    @media (max-width: 480px) {
+        margin: 0;
+        padding: 15px;
+        flex-direction: column;
+  }
 `
 
 export const MenuHeader = styled.h2`
@@ -43,6 +53,9 @@ export const SectionItem = styled.li`
 `
 export const ItemContainer = styled.div`
     margin: 10px 50px;
+    @media (max-width: 480px) {
+        margin: 0;
+  }
 `
 
 export const ItemHeader = styled.div`
