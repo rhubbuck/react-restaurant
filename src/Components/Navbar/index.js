@@ -29,9 +29,9 @@ class Navbar extends Component {
                         this.setState({visible: true})}}>
                     </FontAwesomeIcon>
                     <NavLinkContainer>
-                        <Link style={{borderRight: '2px solid white'}} activeClass="active" to="about" spy={true} smooth={true}><NavLink>About</NavLink></Link>
-                        <Link style={{borderRight: '2px solid white'}} activeClass="active" to="menus" spy={true} smooth={true}><NavLink>Menus</NavLink></Link>
-                        <Link activeClass="active" to="reservations" spy={true} smooth={true}><NavLink>Reservations</NavLink></Link>
+                        <Link style={{borderRight: '2px solid white'}} activeClass="active" to="about" spy={true} smooth={true} offset={-80}><NavLink>About</NavLink></Link>
+                        <Link style={{borderRight: '2px solid white'}} activeClass="active" to="menus" spy={true} smooth={true} offset={-80}><NavLink>Menus</NavLink></Link>
+                        <Link activeClass="active" to="reservations" spy={true} smooth={true} offset={-80}><NavLink>Reservations</NavLink></Link>
                     </NavLinkContainer>
                 </NavbarContainer>
                 {this.state.visible ? 

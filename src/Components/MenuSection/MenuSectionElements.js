@@ -7,7 +7,9 @@ export const MenusContainer = styled.div`
         border-bottom: 1px solid gray;
         margin-bottom: 35px;
   }
-   
+  @media (max-width: 850px) {
+        padding-right: 20px;
+  }
 `
 
 export const MenusSection = styled.div`
@@ -18,6 +20,9 @@ export const MenusSection = styled.div`
         margin: 0;
         padding: 15px;
         flex-direction: column;
+  }
+  @media (max-width: 850px) {
+        margin: 50px 20px;
   }
 `
 

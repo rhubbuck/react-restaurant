@@ -4,10 +4,10 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
-    width: 100%;
-    @media (max-width: 480px) {
+    position: fixed;
+    width: 100%; 
+    z-index: 20;
         width: 100vw;
-  }
 `
 
 export const NavbarContainer = styled.div`
@@ -32,7 +32,8 @@ export const NavLogo = styled.div`
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
 
 `
 

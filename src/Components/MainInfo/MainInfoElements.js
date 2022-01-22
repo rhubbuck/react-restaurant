@@ -8,6 +8,9 @@ export const MainContainer = styled.div`
         margin: 0;
         padding: 15px;
   }
+  @media (max-width: 850px) {
+        margin: 50px 20px;
+  }
 `
 
 export const LeftColumn = styled.div`
