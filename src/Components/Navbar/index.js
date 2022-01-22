@@ -26,7 +26,7 @@ class Navbar extends Component {
                         Nama
                     </NavLogo>
                     <FontAwesomeIcon className={styles.icon} icon={faBars} style={{color: '#fff'}} onClick={() => {
-                        this.setState({visible: true})}}>
+                        this.setState( prevState => ({visible: !prevState.visible}))}}>
                     </FontAwesomeIcon>
                     <NavLinkContainer>
                         <Link style={{borderRight: '2px solid white'}} activeClass="active" to="about" spy={true} smooth={true} offset={-80}><NavLink>About</NavLink></Link>

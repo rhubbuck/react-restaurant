@@ -69,13 +69,14 @@ export const Dropdown = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans';
 `
 
 export const DropdownLink = styled.li`
     color: #fff;
     list-style-type: none;
     font-size: 24px;
-    padding: 10px;
+    padding: 10px 10px 20px;
     background-color: #000;
     width: 100%;
     text-align: center;
