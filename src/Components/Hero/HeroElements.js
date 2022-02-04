@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-    background-image: url('./images/hero-sushi.jpg');
+    background-image: url('./Images/hero-sushi.jpg');
     min-height: 750px;
     background-size: cover;
     background-attachment: fixed;
