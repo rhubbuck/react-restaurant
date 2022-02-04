@@ -3,8 +3,8 @@ import { HeroContainer, HeroTextContainer, HeroTitle, HeroSubtitle } from './Her
 
 const Hero = () => {
     return (
-        <HeroContainer>
-            <HeroTextContainer>
+        <HeroContainer style={{backgroundImage: "url('./Images/hero-sushi.jpg')"}}>
+            <HeroTextContainer >
                 <HeroTitle>Nama</HeroTitle>
                 <HeroSubtitle>Sushi - Ramen - Sake</HeroSubtitle>
             </HeroTextContainer>
