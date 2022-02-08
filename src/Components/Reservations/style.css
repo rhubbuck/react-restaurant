@@ -60,6 +60,10 @@ input {
 
 @media only screen and (max-width: 426px) {
   .reservationContainer {
-    width: 350px;
+    width: 300px;
+  }
+
+  .form-control {
+    width: 260px;
   }
 }
